@@ -1,0 +1,4 @@
+GET https://ow-api.com/v1/stats/pc/us/KJK-1234/profile
+Accept: application/json
+
+> responses/response_ow_profile.js
