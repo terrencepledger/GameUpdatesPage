@@ -3,7 +3,7 @@ function updatePage(body) {
     let rating = body["ratings"].find(
         element => element["role"] === "support"
     )["level"]
-    document.getElementById("body-header").innerText = rating
+    document.getElementById("body-header").textContent = rating
 }
 
 $(
